@@ -48,3 +48,15 @@ section {
 #hero {
     text-align: center;
 }
+
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project {
+    border-radius: 8px;
+    border: 1px dotted #E6DCCA;
+    padding: 10px;
+    margin: 20px;
+}
