@@ -5,13 +5,11 @@
     --bg-colour: #1A1310;
     --text-primary: #E6DCCA;
     --text-secondary: #A89F91;
-
-    /* Typography */
     --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
 body {
-    padding: 0;
+    padding: 0 20px;
     background: radial-gradient(circle at center,
             #231a16 00%, var(--bg-colour) 70%);
     margin: 0 auto;
@@ -48,6 +46,12 @@ section {
 #hero {
     text-align: center;
 }
+
+
+#resume li {
+    margin-bottom: 50px;
+}
+
 
 #projects-container {
     display: grid;
