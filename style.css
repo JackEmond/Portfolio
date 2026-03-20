@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #e0dfdf;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1c1e;
+    /* Olive Drab gradient */
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+h1,
+h2 {
+    font-family: "Michroma", sans-serif;
+    color: #f0a500;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #000;
+    min-height: 5vh;
+    font-family: "Michroma", sans-serif;
+}
+
+.navbar .navbar-content {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #9a6902;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+/* Header Styles */
+.index-header {
+    background-color: #000;
+}
+
+.header-content {
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        /* Color + Opacity */
+        url('images/npsa.jpg');
+    background-size: cover;
+    background-size: 1.6;
+    background-position: bottom;
+}
+
+.index-header .header-text {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-header h1 {
+    font-size: 5em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.index-header .header-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Main Content Styles */
+section {
+    max-width: 1400px;
+    margin: 6em auto;
+}
+
+
+/* About Section */
+#about-me {}
+
+
+/* Projects Section */
+#projects .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+/* Contact Section */
